@@ -1,15 +1,34 @@
+# zen-api
+
+> 101 koans
+> Data provided from [web-scraper](https://github.com/adnjoo/web-scraper)
+
+```
+git clone https://github.com/adnjoo/zen-api
+cd zen-api
+npm install
+psql -U postgres < schema.sql
+node seed
+nodemon server
+```
+
 ## Dependencies
 
 - [cors](https://ghub.io/cors): Node.js CORS middleware
+- [csv-parse](https://ghub.io/csv-parse): CSV parsing implementing the Node.js `stream.Transform` API
 - [dotenv](https://ghub.io/dotenv): Loads environment variables from .env file
 - [express](https://ghub.io/express): Fast, unopinionated, minimalist web framework
-- [fast-csv](https://ghub.io/fast-csv): CSV parser and writer
-- [minimist](https://ghub.io/minimist): parse argument options
+- [nodemon](https://ghub.io/nodemon): Simple monitor script for use during development of a node.js app.
 - [package-json-to-readme](https://ghub.io/package-json-to-readme): Generate a README.md from package.json contents
 - [pg](https://ghub.io/pg): PostgreSQL client - pure javascript &amp; libpq with the same API
-- [validator](https://ghub.io/validator): String validation and sanitization
 
-## Dev Dependencies
 
-None
-
+.env example
+```
+PORT=4001
+PGUSER=postgres
+PGHOST=localhost
+PGPASSWORD=root
+PGDATABASE=zendb
+PGPORT=5432
+```
