@@ -14,7 +14,7 @@ const pool = new Pool({
 const getKoans = (req, res) => {
   let { id } = req.query;
   if (id) {
-    console.log(id);
+    // console.log(id);
     pool
       .query("SELECT * FROM koans WHERE id = $1", [id])
       .then((results) => {

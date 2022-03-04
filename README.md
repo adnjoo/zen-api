@@ -4,6 +4,8 @@
 > 
 > Data provided from [web-scraper](https://github.com/adnjoo/web-scraper)
 
+## Quickstart:
+
 ```
 git clone https://github.com/adnjoo/zen-api
 cd zen-api
@@ -23,6 +25,17 @@ nodemon server
 - [package-json-to-readme](https://ghub.io/package-json-to-readme): Generate a README.md from package.json contents
 - [pg](https://ghub.io/pg): PostgreSQL client - pure javascript &amp; libpq with the same API
 
+## Example api calls:
+
+Get all
+```
+http://localhost:4001/
+```
+
+Get koan by id
+```
+http://localhost:4001/?id=42
+```
 
 .env example
 ```
