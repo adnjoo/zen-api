@@ -37,7 +37,9 @@ Get koan by id
 http://localhost:4001/?id=42
 ```
 
-.env example
+## Local
+
+.env example for Local Use
 ```
 PORT=4001
 PGUSER=postgres
@@ -45,4 +47,13 @@ PGHOST=localhost
 PGPASSWORD=root
 PGDATABASE=zendb
 PGPORT=5432
+```
+
+## Heroku
+
+Swap out commented code in controller.js and db.js
+
+```
+
+
 ```
