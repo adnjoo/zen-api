@@ -1,8 +1,10 @@
 # zen-api
 
-> 101 koans
+> 101 Zen Koans served in a Node API
 > 
 > Data provided from [web-scraper](https://github.com/adnjoo/web-scraper)
+> 
+> [Deployed API](https://quiet-taiga-57745.herokuapp.com/)
 
 ## Quickstart
 
@@ -30,11 +32,15 @@ nodemon server
 Get all
 ```
 http://localhost:4001/
+
+https://quiet-taiga-57745.herokuapp.com/
 ```
 
 Get koan by id
 ```
 http://localhost:4001/?id=42
+
+https://quiet-taiga-57745.herokuapp.com/?id=42
 ```
 
 ## Local
@@ -53,7 +59,3 @@ PGPORT=5432
 
 Swap out commented code in controller.js and db.js
 
-```
-
-
-```
