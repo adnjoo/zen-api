@@ -59,3 +59,6 @@ PGPORT=5432
 
 Swap out commented code in controller.js and db.js
 
+## todo
+
+add side nav to koans, @mobile 600px, top nav
